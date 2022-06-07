@@ -52,9 +52,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://dhakadhaka.com.au'),
 
-    'short_url' => preg_replace('#^https?://#', '', rtrim(env('APP_URL', 'http://localhost'),'/')),
+    'short_url' => preg_replace('#^https?://#', '', rtrim(env('APP_URL', 'https://dhakadhaka.com.au'),'/')),
 
     'asset_url' => env('ASSET_URL', null),
 
